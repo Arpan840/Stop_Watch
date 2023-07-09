@@ -1,0 +1,42 @@
+* {
+  margin: 0px;
+  padding: 0px;
+}
+
+.main {
+  margin: auto;
+  border: 1px solid black;
+  width: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: 30vh;
+  flex-direction: column;
+  border-radius: 20px;
+
+}
+
+.button {
+  margin: 40px;
+}
+
+.time {
+  padding: 20px;
+}
+
+.btn {
+  padding: 10px;
+  border-radius: 8px;
+  background-color: violet;
+  color: black;
+}
+@media screen and (max-width: 800px) {
+.button{
+  display: flex;
+}
+.main{
+  height: 70%;
+  width: 80%;
+  font-size: 40px;
+}
+}
